@@ -33,3 +33,22 @@ python QrSSTV.py
 ## Decoding the SSTV Signal
 To retrieve the original QR code from the SSTV signal, you can use any SSTV decoding software. 
 Please note that the decoding process may not always be perfect on the first attempt, and you may need to decode the SSTV signal repeatedly to achieve an accurate result.
+
+## Example Workflow
+1. Input:
+
+- Enter text: Hello, World!
+- Filename for QR code: qrcode.png
+
+2. Output:
+
+- The QR code image will be saved as qrcode.png.
+- The SSTV signal will be saved as output.wav.
+
+3. Decoding:
+- Use SSTV decoding software to convert output.wav back into the QR code.
+- Use a QR code scanner to decode the original text.
+
+# Notes
+- The QR code image is resized to 320x240 pixels to match the Robot36 SSTV format requirements.
+- For best results, ensure your SSTV decoding software is properly calibrated and try multiple decodes if the first attempt is not accurate.
